@@ -12,6 +12,8 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<link rel="stylesheet" href="grt-youtube-popup.css">
+
 	</head>
 	<body>
 
@@ -21,7 +23,6 @@
 				<!-- Header -->
 					<header id="header" class="alt">
 						<h1>Document Store</h1>
-						<p>Please find relevant documents below.</p>
 					</header>
 
 				<!-- Nav -->
@@ -44,7 +45,7 @@
 										<header class="major">
 											<h2>Welcome</h2>
 										</header>
-										<p>Here you will find documents relating to the bioflare protocols, progress reports, and other useful
+										<p>Here you will find documents relating to the BIOFLARE protocols, progress reports, and other useful
 										pieces of information.</p>
 									</div>
 									<span class="image"><img src="images/bioflare_team.jpg" alt="" /></span>
@@ -52,6 +53,7 @@
 							</section>
 
 						<!-- First Section -->
+						
 							<section id="first" class="main special">
 								<header class="major">
 									<h2>Documents</h2>
@@ -62,6 +64,7 @@
 													<tr>
 														<th>Protocol Name</th>
 														<th>Description</th>
+														<th>Revision</th>
 														<th>Download</th>
 													</tr>
 												</thead>
@@ -69,28 +72,34 @@
 													<tr>
 														<td>PBMC Isolation</td>
 														<td>Protocol relating to PBMC isolation.</td>
+														<td>v1.0</td>
 														<td><a href="images/SOP1.docx" download>7.0 MB</a></td>
-													</tr>
-													<tr>
-														<td>Flow Cytometry</td>
-														<td>Protocol relating to flow staining and acquisition.</td>
-														<td>Click</td>
 													</tr>
 													<tr>
 														<td>MACS Isolation</td>
 														<td> Etc etc etc etc .</td>
+														<td>v1.0</td>
 														<td>Click</td>
 													</tr>
 													<tr>
 														<td>Biopsy Processing</td>
 														<td>Etc etc etc etc .</td>
+														<td>v1.0</td>
 														<td>Click</td>
 													</tr>
 													<tr>
 														<td>RNA Extraction</td>
 														<td>Etc etc etc etc .</td>
+														<td>v1.0</td>
 														<td>Click</td>
 													</tr>
+													<tr>
+														<td>Flow Cytometry</td>
+														<td>Protocol relating to flow staining and acquisition.</td>
+														<td>v1.0</td>
+														<td><span class="youtube-link" youtubeid="AX2dTbi_nWg"><button>Open Video</button></span>  </td>
+													</tr>
+
 												</tbody>
 
 											</table>
@@ -102,7 +111,7 @@
 													<tr>
 														<th>Name</th>
 														<th>Description</th>
-														<th>Price</th>
+														<th>Download</th>
 													</tr>
 												</thead>
 												<tbody>
@@ -132,12 +141,6 @@
 														<td>29.99</td>
 													</tr>
 												</tbody>
-												<tfoot>
-													<tr>
-														<td colspan="2"></td>
-														<td>100.00</td>
-													</tr>
-												</tfoot>
 											</table>
 										</div>
 								</header>
@@ -148,7 +151,6 @@
 							<section id="second" class="main special">
 								<header class="major">
 									<h2>Study Progress</h2>
-									<p>See below for the current statistics surrounding the bioflare trial.</p>
 								</header>
 								<ul class="statistics">
 									<li class="style1">
@@ -172,7 +174,6 @@
 										<strong>∞</strong> Coffees Drank
 									</li>
 								</ul>
-								<p class="content">Paragraph Here.</p>
 								<footer class="major">
 								</footer>
 							</section>
@@ -182,12 +183,11 @@
 								<header class="major">
 									<h2>Contact Information</h2>
 									<p>For further information relating to the bioflare clinical trial<br />
-									please click the below contact. For more information, click learn more.</p>
+									please click below. </p>
 								</header>
 								<footer class="major">
 									<ul class="actions">
 										<li><a href="mailto:immunotherapy@newcastle.ac.uk" class="button special">Contact Us</a></li>
-										<li><a href="https://bioflare.github.io/" class="button">Learn More</a></li>
 									</ul>
 								</footer>
 							</section>
@@ -212,9 +212,9 @@
 								<dd><a href="#">Immunotherapy@newcastle.ac.uk</a></dd>
 							</dl>
 							<ul class="icons">
-								<li><a href="#" class="icon fa-twitter alt"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon fa-facebook alt"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon fa-envelope alt"><span class="label">Email</span></a></li>
+								<li><a href="https://twitter.com/bioflare" class="icon fa-twitter alt"><span class="label">Twitter</span></a></li>
+								<li><a href="https://www.facebook.com/nyrc.meeting.3" class="icon fa-facebook alt"><span class="label">Facebook</span></a></li>
+								<li><a href="mailto:immunotherapy@newcastle.ac.uk" class="icon fa-envelope alt"><span class="label">Email</span></a></li>
 							</ul>
 						</section>
 						<p class="copyright">&copy; Newcastle University</p>
@@ -230,6 +230,9 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+			<script src="grt-youtube-popup.js"></script>
+			<script> $(".youtube-link").grtyoutube(); </script>
+
 
 	</body>
 </html>
