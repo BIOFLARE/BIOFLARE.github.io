@@ -2227,6 +2227,8 @@
 			padding:0 0 0 0;
 			}}
 			
+
+			
 		@media screen and (max-width: 480px) {	.main.style2 > .content4  {
 			
 			    margin-right: auto;
@@ -2235,6 +2237,33 @@
 				margin-bottom: auto;
 			}}
 				
+		@media screen and (max-width: 480px) {	.main.style2 > .content3  {
+			
+			    margin-right: auto;
+				margin-top: auto;
+				margin-left: auto;
+				margin-bottom: auto;
+				text-align:center;
+			}}
+			
+		@media screen and (min-width: 481px) {	.main.style2 > .content3  {
+			
+				-moz-transition: -moz-transform 1s ease;
+				-webkit-transition: -webkit-transform 1s ease;
+				-ms-transition: -ms-transform 1s ease;
+				transition: transform 1s ease;
+				-moz-transform: translateZ(0);
+				-webkit-transform: translateZ(0);
+				-ms-transform: translateZ(0);
+				transform: translateZ(0);
+				position: relative;
+				width: 100%;
+				margin-right:150px;
+				margin-top:auto;
+				margin-left:0px;
+				margin-bottom:auto;
+				text-align: right;
+			}}
 			
 		@media screen and (min-width: 481px) {	.main.style2 > .content4  {
 			
