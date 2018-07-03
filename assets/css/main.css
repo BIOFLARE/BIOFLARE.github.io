@@ -550,8 +550,22 @@
 		text-shadow: 2px 2px 0px #000000 ; /* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
 	}
 	
+	hnametitle {
+		font-size: 1.75em;
+		line-height: 1.25em;
+		letter-spacing: -0.05em;
+		text-shadow: 2px 2px 0px #000000 ; /* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+	}
+	
 	hsub {
 		font-size: 1.25em;
+		line-height: 1.25em;
+		letter-spacing: -0.05em;
+		text-shadow: 1.25px 1.25px 0px #000000 ; /* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+	}
+	
+	hnamesub {
+		font-size: 1em;
 		line-height: 1.25em;
 		letter-spacing: -0.05em;
 		text-shadow: 1.25px 1.25px 0px #000000 ; /* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
@@ -1368,9 +1382,12 @@
 	overflow: visible;
 	position: absolute;
     top: 50%;
+	width: 300px;
     left: 70%;
     transform: translate(-50%, -50%);
 }
+
+
 
 		.gallery article {
 			-moz-transition: -moz-transform 1s ease, opacity 1s ease;
@@ -2034,6 +2051,7 @@
 				-webkit-justify-content: -webkit-flex-start;
 				-ms-justify-content: -ms-flex-start;
 				justify-content: flex-start;
+				background: #ffffff;
 			}
 
 			.main.style2.right {
@@ -2125,7 +2143,7 @@
 				}
 
 		body.is-touch .main {
-			background-attachment: scroll !important;
+			/*background-attachment: scroll !important;*/
 		}
 
 		@media screen and (max-width: 1920px) {
@@ -2202,6 +2220,50 @@
 			}
 
 		}
+		
+		
+		@media screen and (max-width: 480px) {	.main.style4  {
+			
+			padding:0 0 0 0;
+			}}
+			
+		@media screen and (max-width: 480px) {	.main.style2 > .content4  {
+			
+			    margin-right: auto;
+				margin-top: auto;
+				margin-left: auto;
+				margin-bottom: auto;
+			}}
+				
+			
+		@media screen and (min-width: 481px) {	.main.style2 > .content4  {
+			
+				-moz-transition: -moz-transform 1s ease;
+				-webkit-transition: -webkit-transform 1s ease;
+				-ms-transition: -ms-transform 1s ease;
+				transition: transform 1s ease;
+				-moz-transform: translateZ(0);
+				-webkit-transform: translateZ(0);
+				-ms-transform: translateZ(0);
+				transform: translateZ(0);
+				position: relative;
+				width: 100%;
+				margin-right:0px;
+				margin-top:auto;
+				margin-left:150px;
+				margin-bottom:auto;
+			}}	
+			
+		@media screen and (min-width:481px) { .main.style4 {
+			text-align: left;
+			padding: 6em 40em 6em 0;
+		}}
+			
+			
+
+
+			
+			
 
 /* Footer */
 
