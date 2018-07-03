@@ -2143,7 +2143,7 @@
 				}
 
 		body.is-touch .main {
-			/*background-attachment: scroll !important;*/
+			background-attachment: scroll !important;
 		}
 
 		@media screen and (max-width: 1920px) {
