@@ -593,7 +593,6 @@
 		-webkit-transition: color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out;
-		color: #98c593;
 	}
 
 	sub {
@@ -685,9 +684,7 @@
 		-webkit-transition: background-color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out;
-		background-color: #98c593;
 		border: 0;
-		border-radius: 3.5em;
 		color: #ffffff;
 		cursor: pointer;
 		display: inline-block;
@@ -699,6 +696,9 @@
 		text-align: center;
 		text-decoration: none;
 	}
+	
+	
+
 
 		input[type="button"].down,
 		input[type="submit"].down,
@@ -742,7 +742,6 @@
 		input[type="reset"]:hover,
 		.button:hover,
 		button:hover {
-			background-color: #a8cea4;
 		}
 
 		input[type="button"]:active,
@@ -750,7 +749,6 @@
 		input[type="reset"]:active,
 		.button:active,
 		button:active {
-			background-color: #88bc82;
 		}
 
 		input[type="button"].style2,
@@ -785,7 +783,11 @@
 			.button.style2.down,
 			button.style2.down {
 				background-image: url("images/arrow.svg");
+				border-radius: 3.5em;
+
 			}
+
+			
 
 /* Form */
 
@@ -1024,8 +1026,8 @@
 /* Dropdown content (hidden by default) */
 .dropdown-content {
   display: none;
-  position: absolute;
   background-color: #f9f9f9;
+  position: absolute;
   min-width: 160px;
   box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.2);
   z-index: 1;
