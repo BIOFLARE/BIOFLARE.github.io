@@ -1695,8 +1695,10 @@
 		}
 
 	strong, b {
-		font-weight: 400;
+		font-weight: 900;
+		color: inherit;
 	}
+
 
 	em, i {
 		font-style: italic;

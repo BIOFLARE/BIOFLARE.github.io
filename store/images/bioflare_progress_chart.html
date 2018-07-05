@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<html>
+<head>  
+<script>
+window.onload = function () {
+
+var chart = new CanvasJS.Chart("chartContainer", {
+	animationEnabled: true,
+	title:{
+		text: ""
+	},
+	axisY :{
+		title: "Number of Patients (Cumulative)"
+	},
+	axisX: {
+		title: "Months after Study Launch"
+	},
+	toolTip: {
+		shared: true
+	},
+	data: [{        
+		type: "stackedArea",
+		showInLegend: true,
+		toolTipContent: "<span style=\"color:#4F81BC\"><strong>{name}: </strong></span> {y}",
+		name: "Newcastle University",
+		dataPoints: [
+		{ x: 0, y: 0 },
+		{ x: 1, y: 12 },
+		{ x: 2, y: 18 },
+		{ x: 4, y: 24 },
+		{ x: 6, y: 32 },
+		{ x: 8, y: 39 },
+		{ x: 10, y: 44 },
+		{ x: 12, y: 49 },
+		{ x: 14, y: 54 },
+		{ x: 16, y: 58 },
+		{ x: 18, y: 60 },
+		{ x: 20, y: 61 }
+		]
+	},
+	{        
+		type: "stackedArea",  
+		name: "Glasgow University",
+		toolTipContent: "<span style=\"color:#C0504E\"><strong>{name}: </strong></span> {y}",
+		showInLegend: true,
+		dataPoints: [
+		{ x: 0, y: 0 },
+		{ x: 1, y: 9 },
+		{ x: 2, y: 14 },
+		{ x: 4, y: 22 },
+		{ x: 6, y: 28 },
+		{ x: 8, y: 34 },
+		{ x: 10, y: 39 },
+		{ x: 12, y: 40 },
+		{ x: 14, y: 45 },
+		{ x: 16, y: 49 },
+		{ x: 18, y: 54 },
+		{ x: 20, y: 58 }
+		]
+		},
+		{        
+		type: "stackedArea",  
+		name: "Birmingham University",
+		toolTipContent: "<span style=\"color:#C0504E\"><strong>{name}: </strong></span> {y}<br><b>Total:<b> #total",
+		showInLegend: true,
+		dataPoints: [
+		{ x: 0, y: 0 },
+		{ x: 1, y: 7 },
+		{ x: 2, y: 12 },
+		{ x: 4, y: 16 },
+		{ x: 6, y: 20 },
+		{ x: 8, y: 24 },
+		{ x: 10, y: 30 },
+		{ x: 12, y: 36 },
+		{ x: 14, y: 40 },
+		{ x: 16, y: 44 },
+		{ x: 18, y: 51 },
+		{ x: 20, y: 57 }
+		]
+		
+	}]
+});
+chart.render();
+
+}
+</script>
+</head>
+<body>
+<div id="chartContainer" style="height: 500px; max-width: 800px; margin: 0px auto;"></div>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</body>
+</html>
