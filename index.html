@@ -17,6 +17,9 @@
 	<body>
 
 			<!-- Header -->
+			
+	
+			
 			<header id="header">
 				<h1>BIOFLARE</h1>
 				<nav>
@@ -96,12 +99,48 @@ function myFunction() {
 }
 </script>
 		
-			
+<script>
+flexFont = function () {
+    var divs = document.getElementsByClassName("flexFont");
+    for(var i = 0; i < divs.length; i++) {
+        var relFontsize = divs[i].offsetWidth*0.05;
+        divs[i].style.fontSize = relFontsize+'px';
+    }
+};
+
+window.onload = function(event) {
+    flexFont();
+};
+window.onresize = function(event) {
+    flexFont();
+};
+</script>
+
 		<!-- Intro -->
+		
+
+		
+		
 			<section id="intro" class="main style1 dark fullscreen">
+
 				<div class="content">
 					<header>
-						<h2>BIOFLARE</h2>
+					<div class="container">
+						<img src="images/Logo.png" style="width:33%; height:auto; -webkit-filter: drop-shadow(10px 10px 105px #222); filter: drop-shadow(5px 5px 5px #222);">
+						<div class="centered" style="left: 43%; white-space: nowrap; overflow: visible; visibility: visible;"><h2 style="white-space: nowrap; overflow: visible; float:left; visibility: visible; -webkit-mask-image: unset; -webkit-mask-size: unset; animation: unset;">BIO</h2><h2><a hclass="effect-shine" style=display: "inline-block; white-space: nowrap; overflow: visible;">FLARE</a></h2></div>	
+						<div class="placementflare">
+							  <div class="light">
+								  <div class="flare one">
+									<div class="flare two">
+									  <div class="flare five"></div>
+									  <div class="flare six"></div>
+										<div class="flare four">
+										</div>
+									  </div>
+									</div>
+								  </div>
+								</div>
+  					</div>
 					</header>
 					<p><hsub>Welcome to the <strong>BIOFLARE</strong> study page - an exciting multi-site collaborative project <br /> investigating flare in Rheumatoid Arthritis. </hsub></p>
 					<footer>
@@ -109,7 +148,6 @@ function myFunction() {
 					</footer>
 				</div>
 			</section>
-
 
 
 <!-- One -->
@@ -136,7 +174,6 @@ function myFunction() {
 								outline: none;
 								cursor: pointer;
 								transition: 0.3s;
-								font-size: 17px;
 							}
 
 							/* Change background color of buttons on hover */
@@ -160,37 +197,32 @@ function myFunction() {
 							</head>
 							<body>
 
-							<div class="tab">
-							  <button class="tablinks" onclick="openCity(event, 'BF1')" id="defaultOpen"><h3 style="color: grey; font-weight:500;">BIOFLARE</h3></button>
-							  <button class="tablinks" onclick="openCity(event, 'BF2')"><h3 style="color: grey;  font-weight:500;">Why?</h3></button>
-							  <button class="tablinks" onclick="openCity(event, 'BF3')"><h3 style="color: grey;  font-weight:500;">What is Flare?</h3></button>
-							  <button class="tablinks" onclick="openCity(event, 'BF4')"><h3 style="color: grey;  font-weight:500;">How does it work?</h3></button>
-							  <button class="tablinks" onclick="openCity(event, 'BF5')"><h3 style="color: grey;  font-weight:500;">How are patients involved?</h3></button>
+							<div class="tab" >
+							  <button class="tablinks" onclick="openCity(event, 'BF1')" id="defaultOpen"><h3 style="color: grey; font-weight:500; word-wrap:break-word;" class="fontsizer">BIOFLARE</h3></button>
+							  <button class="tablinks" onclick="openCity(event, 'BF2')"><h3 style="color: grey;  font-weight:500; word-wrap:break-word;"  class="fontsizer" >Why?</h3></button>
+							  <button class="tablinks" onclick="openCity(event, 'BF3')"><h3 style="color: grey;  font-weight:500; word-wrap:break-word;"  class="fontsizer" >What is Flare?</h3></button>
+							  <button class="tablinks" onclick="openCity(event, 'BF4')"><h3 style="color: grey;  font-weight:500; word-wrap:break-word;"  class="fontsizer" >How does it work?</h3></button>
+							  <button class="tablinks" onclick="openCity(event, 'BF5')"><h3 style="color: grey;  font-weight:500; word-wrap:break-word;"  class="fontsizer" >Patient Involvement?</h3></button>
 							</div>
 
 							<div id="BF1" class="tabcontent">
-							  <h3 style="text-align:center;">BIO-FLARE?</h3>
-							  <p style="text-align:left;"> BIO-FLARE stands for Biological Factors that Limit Sustained Remission in Rheumatoid Arthritis. BIO-FLARE is a research study that has been set up between Newcastle University, the University of Birmingham and the University of Glasgow. It aims to find out more about what happens in flare in rheumatoid arthritis. <br> <br> <br> <br> <br> <br> </p>
+							  <p style="text-align:left;"> <br />BIO-FLARE stands for Biological Factors that Limit Sustained Remission in Rheumatoid Arthritis. BIO-FLARE is a research study that has been set up between Newcastle University, the University of Birmingham and the University of Glasgow. It aims to find out more about what happens in flare in rheumatoid arthritis. <br> <br> <br> <br> <br> <br> </p>
 							</div>
 
 							<div id="BF2" class="tabcontent">
-							  <h3 style="text-align:center;">Why BIOFLARE?</h3>
-							  <p style="text-align:left;"> BIO-FLARE is a research study that aims to find out more about flare in rheumatoid arthritis. If more is known about what triggers flare in RA, then more can be done to try and prevent it, and to identify which patients are more prone to flare than others. We also hope to identify which patients would be at a lower risk of flaring if they were to stop their medications.  <br> <br> <br> <br> <br> </p>
+							  <p style="text-align:left;"> <br />BIO-FLARE is a research study that aims to find out more about flare in rheumatoid arthritis. If more is known about what triggers flare in RA, then more can be done to try and prevent it, and to identify which patients are more prone to flare than others. We also hope to identify which patients would be at a lower risk of flaring if they were to stop their medications.  <br> <br> <br> <br> <br> </p>
 							</div>
 
 							<div id="BF3" class="tabcontent">
-							  <h3 style="text-align:center;">What is Flare?</h3>
-							  <p style="text-align:left;">Rheumatoid arthritis is characterised by periods of inactivity, where the disease is relatively well controlled, and periods of flare, when the disease is very active and many joints are painful. This can be very unpredictable and frustrating for patients as they cannot predict how they will feel from day to day and week to week. <br> <br> <br> <br> <br> <br> </p>
+							  <p style="text-align:left;"><br />Rheumatoid arthritis is characterised by periods of inactivity, where the disease is relatively well controlled, and periods of flare, when the disease is very active and many joints are painful. This can be very unpredictable and frustrating for patients as they cannot predict how they will feel from day to day and week to week. <br> <br> <br> <br> <br> <br> </p>
 							</div>
 
 							<div id="BF4" class="tabcontent">
-							  <h3 style="text-align:center;">How does the study work?</h3>
-							  <p style="text-align:left;"> Patients with RA that is stable and in remission (i.e. they have no or barely detectable levels of disease) will have their disease modifying anti-rheumatic drugs (DMARDs) stopped. They will be followed up very closely for 6 months. We know from previous work that about half of them will stay in remission. The other half will go on to have a mild flare and they will have their drugs restarted and maybe require some short term steroid treatment. By following these patients up very closely and taking blood samples at regular intervals we hope to identify certain markers in the blood that signify which patients will flare. We will also take a sample of the lining of the joint (a synovial biopsy) at the point of flare, which will help us to work out what is going on in a flare of rheumatoid arthritis. </p>
+							  <p style="text-align:left;"> <br />Patients with RA that is stable and in remission (i.e. they have no or barely detectable levels of disease) will have their disease modifying anti-rheumatic drugs (DMARDs) stopped. They will be followed up very closely for 6 months. We know from previous work that about half of them will stay in remission. The other half will go on to have a mild flare and they will have their drugs restarted and maybe require some short term steroid treatment. By following these patients up very closely and taking blood samples at regular intervals we hope to identify certain markers in the blood that signify which patients will flare. We will also take a sample of the lining of the joint (a synovial biopsy) at the point of flare, which will help us to work out what is going on in a flare of rheumatoid arthritis. </p>
 							  </div>
 							  
 							<div id="BF5" class="tabcontent">
-							  <h3 style="text-align:center;">How are patients involved?</h3>
-							  <p style="text-align:left;"> Patients with rheumatoid arthritis that is stable and in remission who wish to be involved in the study will be identified by their rheumatology team. They will be invited to discuss the study with a member of the research team who will give them more information and answer their questions. The study is run from 3 centres in the UK – Newcastle, Birmingham and Glasgow. <br> <br> <br> <br> <br> </p>
+							  <p style="text-align:left;"> <br />Patients with rheumatoid arthritis that is stable and in remission who wish to be involved in the study will be identified by their rheumatology team. They will be invited to discuss the study with a member of the research team who will give them more information and answer their questions. The study is run from 3 centres in the UK – Newcastle, Birmingham and Glasgow. <br> <br> <br> <br> <br> </p>
 							  </div>
 							  
 							<script>
@@ -272,7 +304,6 @@ function myFunction() {
 								outline: none;
 								cursor: pointer;
 								transition: 0.3s;
-								font-size: 17px;
 							}
 
 							/* Change background color of buttons on hover */
@@ -297,25 +328,22 @@ function myFunction() {
 							<body>
 
 							<div class="tab">
-							  <button class="tablinks2" onclick="openCity2(event, 'CI1')" id="defaultOpen2"><h3 style="color: grey; font-weight:500;">Clinical Information</h3></button>
-							  <button class="tablinks2" onclick="openCity2(event, 'CI2')"><h3 style="color: grey;  font-weight:500;">Participant Population</h3></button>
-							  <button class="tablinks2" onclick="openCity2(event, 'CI3')"><h3 style="color: grey;  font-weight:500;">Primary Objectives</h3></button>
-							  <button class="tablinks2" onclick="openCity2(event, 'CI4')"><h3 style="color: grey;  font-weight:500;">Study Overview</h3></button>
+							  <button class="tablinks2" onclick="openCity2(event, 'CI1')" id="defaultOpen2"><h3 style="color: grey; font-weight:500;" class="fontsizer">Clinical Information</h3></button>
+							  <button class="tablinks2" onclick="openCity2(event, 'CI2')"><h3 style="color: grey;  font-weight:500; ;" class="fontsizer">Participant Population</h3></button>
+							  <button class="tablinks2" onclick="openCity2(event, 'CI3')"><h3 style="color: grey;  font-weight:500; ;" class="fontsizer">Primary Objectives</h3></button>
+							  <button class="tablinks2" onclick="openCity2(event, 'CI4')"><h3 style="color: grey;  font-weight:500;" class="fontsizer">Study Overview</h3></button>
 							</div>
 
 							<div id="CI1" class="tabcontent2">
-							  <h3 style="text-align:center;">Clinical Information</h3>
-							  <p style="text-align:left;"> BIO-FLARE stands for Biological Factors that Limit Sustained Remission in Rheumatoid Arthritis. It is a non-randomised longitudinal cohort study looking into the pathogenesis of flare in rheumatoid arthritis. It is a multi-centre study designed in a Hub-and-Spoke model. There are three regional hubs (Newcastle, Birmingham and Glasgow), each of which will be associated with spoke research sites located at local NHS Trusts. <br> <br><br> <br><br> </p>
+							  <p style="text-align:left;"> <br />BIO-FLARE stands for Biological Factors that Limit Sustained Remission in Rheumatoid Arthritis. It is a non-randomised longitudinal cohort study looking into the pathogenesis of flare in rheumatoid arthritis. It is a multi-centre study designed in a Hub-and-Spoke model. There are three regional hubs (Newcastle, Birmingham and Glasgow), each of which will be associated with spoke research sites located at local NHS Trusts. <br> <br><br> <br><br> </p>
 							</div>
 
 							<div id="CI2" class="tabcontent2">
-							  <h3 style="text-align:center;">Participant Population</h3>
-							  <p style="text-align:left;"> The participant population is patients with established rheumatoid arthritis in clinical remission and receiving non-biologic disease-modifying anti-rheumatic drugs (DMARDs). Participants will have their DMARDs stopped and be followed up for 6 months with blood samples at regular intervals. We know from previous work and the published literature that about half of these participants will flare. We will take an ultrasound-guided synovial biopsy at the point of flare (and there is also an option for a synovial biopsy at baseline).  We aim to recruit 181 patients over the 3 sites. <br> <br><br> <br> </p>
+							  <p style="text-align:left;"> <br />The participant population is patients with established rheumatoid arthritis in clinical remission and receiving non-biologic disease-modifying anti-rheumatic drugs (DMARDs). Participants will have their DMARDs stopped and be followed up for 6 months with blood samples at regular intervals. We know from previous work and the published literature that about half of these participants will flare. We will take an ultrasound-guided synovial biopsy at the point of flare (and there is also an option for a synovial biopsy at baseline).  We aim to recruit 181 patients over the 3 sites. <br> <br><br> <br> </p>
 							</div>
 
 							<div id="CI3" class="tabcontent2">
-							  <h3 style="text-align:center;">Primary Objectives</h3>
-							  <p style="text-align:left;">The primary objective is to study the immune dysregulation preceding rheumatoid arthritis flare. We will focus on the following workstreams to interrogate the biology of flare: 
+							  <p style="text-align:left;"><br />The primary objective is to study the immune dysregulation preceding rheumatoid arthritis flare. We will focus on the following workstreams to interrogate the biology of flare: 
 							  		<ul style="list-style-type:circle; text-align:left;">
 									  <li>Circulating immune cell subsets and their activation status</li>
 									  <li>Autoantibody profiles (partnering with Orgentec) and other circulating mediators</li>
@@ -328,7 +356,6 @@ function myFunction() {
 							</div>
 
 							<div id="CI4" class="tabcontent2">
-							  <h3 style="text-align:center;">Study Overview</h3>
 							  <img style="    display: block;    margin-left: auto;    margin-right: auto;    width: 100%;" src="images/studyoverview.png" alt="Study Overview">
 							  </div>
 
