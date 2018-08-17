@@ -1896,7 +1896,7 @@
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		position: relative;
+		/*position: relative;*/
 		margin: 0;
 		overflow-x: hidden;
 		
@@ -2424,7 +2424,7 @@
 
 	#two {
 		background: url("images/overlay.png"), url("../../images/two.jpg");
-		/*background-size: 256px 256px, cover;*/
+		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
@@ -2442,7 +2442,7 @@
 
 	#four {
 		background: url("images/overlay.png"), url("../../images/four.jpg");
-		/*background-size: 256px 256px, cover;*/
+		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
