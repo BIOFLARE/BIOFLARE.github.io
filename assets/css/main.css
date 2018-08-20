@@ -2018,6 +2018,32 @@
 				margin-left:0px;
 				margin-bottom:auto;
 				text-align: right;
+				min-width:40em;
+				max-width:120em;
+				min-height:30em;
+				max-height:30em;
+			}
+			
+			.main.style2 > .content3_fix {
+				-moz-transition: -moz-transform 1s ease;
+				-webkit-transition: -webkit-transform 1s ease;
+				-ms-transition: -ms-transform 1s ease;
+				transition: transform 1s ease;
+				-moz-transform: translateZ(0);
+				-webkit-transform: translateZ(0);
+				-ms-transform: translateZ(0);
+				transform: translateZ(0);
+				position: relative;
+				width: 100%;
+				margin-right:150px;
+				margin-top:auto;
+				margin-left:0px;
+				margin-bottom:auto;
+				text-align: right;
+				min-width:40em;
+				max-width:50em;
+				min-height:30em;
+				max-height:30em;
 			}
 
 			.main.style2 > .content4 {
