@@ -1886,7 +1886,20 @@
 			display: none;
 		  }
 		}
+
+		.mobileonly {
+		display: none;
+		visibility: hidden;
+		}
 		
+@media screen and (max-width: 720px) {
+		.mobileonly {
+		clear: both;
+		display: block;
+		visibility: visible;
+		text-align: center;
+		}
+		}
 		
 /* Main */
 
@@ -2111,7 +2124,8 @@
 
 		.main.style3 {
 			text-align: left;
-			padding: 6em 0 6em 3em;
+			padding: 6em 0 6em 3em; /*THIS PADDING ADDED EXTRA BACKGROUND DUPLICATES IN MS EDGE*/
+			/*margin: 6em 0 6em 3em;*/
 		}
 		
 			.main.style3 .content > header {
@@ -2121,11 +2135,13 @@
 			
 			.main.style3.primary {
 				background: #ffffff;
+				margin: 0em 0em 2em 0em;
 
 			}
 
 			.main.style3.secondary {
 				background: #f5f6f7;
+				margin: 0em 0em 0em 0em;
 			}
 
 		.main.style4 {
@@ -2242,7 +2258,7 @@
 
 			.main.style3 {
 				text-align: center;
-				padding: 3em 10px 3em 10px;
+				/*padding: 3em 10px 3em 10px;*/ /*FIX DUPLICATE*/
 			}
 
 		}
