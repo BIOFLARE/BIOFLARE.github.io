@@ -60,7 +60,7 @@
 	*, *:before, *:after {
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
-		
+		box-sizing: border-box;
 	}
 
 /* Basic */
@@ -1979,9 +1979,9 @@
 				-ms-transform: translateZ(0);
 				transform: translateZ(0);
 				position: relative;
-				width: 40%;
+				width: 100%;
 				margin: 0;
-				overflow: hidden;
+				overflow:hidden;
 			}
 			
 			.main.style2 > .content2 {
@@ -1994,13 +1994,12 @@
 				-ms-transform: translateZ(0);
 				transform: translateZ(0);
 				position: relative;
-				width: 30%;
+				width: 100%;
 				margin-right:0px;
 				margin-top:auto;
 				margin-left:auto;
 				margin-bottom:auto;
-								overflow: hidden;
-
+				overflow:hidden;
 			}
 			
 			.main.style2 > .content3 {
@@ -2013,14 +2012,12 @@
 				-ms-transform: translateZ(0);
 				transform: translateZ(0);
 				position: relative;
-				width: 40%;
+				width: 100%;
 				margin-right:150px;
 				margin-top:auto;
 				margin-left:0px;
 				margin-bottom:auto;
 				text-align: right;
-								overflow: hidden;
-
 			}
 
 			.main.style2 > .content4 {
@@ -2038,8 +2035,6 @@
 				margin-top:auto;
 				margin-left:150px;
 				margin-bottom:auto;
-								overflow: hidden;
-
 			}
 			
 			.main.style2 > .content5 {
@@ -2057,8 +2052,6 @@
 				margin-top:auto;
 				margin-left:150px;
 				margin-bottom:auto;
-								overflow: hidden;
-
 			}
 			
 			.main.style2.left {
@@ -2172,7 +2165,7 @@
 		@media screen and (max-width: 1280px) {
 
 			.main.style2 .content {
-				width: 50%;
+				width: 100%;
 			}
 
 		}
@@ -2180,7 +2173,7 @@
 		@media screen and (max-width: 1000px) {
 
 			.main.style2 .content {
-				width: 60%;
+				width: 100%;
 			}
 
 		}
