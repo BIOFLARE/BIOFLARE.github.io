@@ -1898,6 +1898,7 @@
 		display: block;
 		visibility: visible;
 		text-align: center;
+		padding: 1em 1em 1em 1em; 
 		}
 		}
 		
@@ -2124,8 +2125,8 @@
 
 		.main.style3 {
 			text-align: left;
-			padding: 6em 0 6em 3em; /*THIS PADDING ADDED EXTRA BACKGROUND DUPLICATES IN MS EDGE*/
-			/*margin: 6em 0 6em 3em;*/
+			/*padding: 6em 0 6em 3em; /*THIS PADDING ADDED EXTRA BACKGROUND DUPLICATES IN MS EDGE*/
+			margin: 6em 0 6em 3em;
 		}
 		
 			.main.style3 .content > header {
