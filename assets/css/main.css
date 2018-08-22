@@ -701,7 +701,48 @@
 	}
 	
 	
+.btn123 {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #c9c7c7;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  /*padding: 20px;*/
+  padding-left:10%;
+  padding-right:10%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-left:37.5%;
 
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.btn123 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn123 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn123:hover span {
+  padding-right: 25px;
+}
+
+.btn123:hover span:after {
+  opacity: 1;
+  right: 0;
+}
   
 
 		input[type="button"].down,
@@ -2033,7 +2074,7 @@
 				margin-bottom:auto;
 				text-align: right;
 				min-width:40em;
-				max-width:120em;
+				max-width:135em;
 				min-height:30em;
 				max-height:30em;
 			}
@@ -2055,7 +2096,7 @@
 				margin-bottom:auto;
 				text-align: right;
 				min-width:40em;
-				max-width:50em;
+				max-width:135em;
 				min-height:30em;
 				max-height:30em;
 			}
