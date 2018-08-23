@@ -1921,7 +1921,7 @@
 
 		}
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 880px) {
 		  .desktoponly {
 			visibility: hidden;
 			display: none;
@@ -1933,7 +1933,7 @@
 		visibility: hidden;
 		}
 		
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 880px) {
 		.mobileonly {
 		clear: both;
 		display: block;
@@ -2080,12 +2080,12 @@
 				transform: translateZ(0);
 				position: relative;
 				width: 100%;
-				margin-right:150px;
+				margin-right:5%;
 				margin-top:auto;
 				margin-left:0px;
 				margin-bottom:auto;
 				text-align: right;
-				min-width:40em;
+				/*min-width:40em;*/
 				max-width:135em;
 				min-height:30em;
 				max-height:30em;
@@ -2102,12 +2102,12 @@
 				transform: translateZ(0);
 				position: relative;
 				width: 100%;
-				margin-right:150px;
+				margin-right:5%;
 				margin-top:auto;
 				margin-left:0px;
 				margin-bottom:auto;
 				text-align: right;
-				min-width:40em;
+				/*min-width:40em;*/
 				max-width:135em;
 				min-height:30em;
 				max-height:30em;
@@ -2126,7 +2126,7 @@
 				width: 100%;
 				margin-right:0px;
 				margin-top:auto;
-				margin-left:150px;
+				margin-left:5%;
 				margin-bottom:auto;
 			}
 			
@@ -2143,7 +2143,7 @@
 				width: 100%;
 				margin-right:0px;
 				margin-top:auto;
-				margin-left:150px;
+				margin-left:5%;
 				margin-bottom:auto;
 			}
 			
@@ -2318,7 +2318,7 @@
 
 		}
 
-		@media screen and (max-width: 600px) {
+		@media screen and (max-width: 880px) {
 
 			.main > .content {
 				max-width: calc(100% - 1.5em);
@@ -2327,14 +2327,14 @@
 		}
 		
 		
-		@media screen and (max-width: 600px) {	.main.style4  {
+		@media screen and (max-width: 880px) {	.main.style4  {
 			
 			padding:0 0 0 0;
 			}}
 			
 
 			
-		@media screen and (max-width: 600px) {	.main.style2 > .content4  {
+		@media screen and (max-width: 880px) {	.main.style2 > .content4  {
 			
 			    margin-right: auto;
 				margin-top: auto;
@@ -2342,7 +2342,7 @@
 				margin-bottom: auto;
 			}}
 				
-		@media screen and (max-width: 601px) {	.main.style2 > .content3  {
+		@media screen and (max-width: 881px) {	.main.style2 > .content3  {
 			
 			    margin-right: auto;
 				margin-top: auto;
@@ -2351,7 +2351,7 @@
 				text-align:center;
 			}}
 			
-		@media screen and (min-width: 601px) {	.main.style2 > .content3  {
+		@media screen and (min-width: 881px) {	.main.style2 > .content3  {
 			
 				-moz-transition: -moz-transform 1s ease;
 				-webkit-transition: -webkit-transform 1s ease;
@@ -2363,14 +2363,14 @@
 				transform: translateZ(0);
 				position: relative;
 				width: 100%;
-				margin-right:150px;
+				margin-right:5%;
 				margin-top:auto;
 				margin-left:0px;
 				margin-bottom:auto;
 				text-align: right;
 			}}
 			
-		@media screen and (min-width: 601px) {	.main.style2 > .content4  {
+		@media screen and (min-width: 881px) {	.main.style2 > .content4  {
 			
 				-moz-transition: -moz-transform 1s ease;
 				-webkit-transition: -webkit-transform 1s ease;
@@ -2384,11 +2384,11 @@
 				width: 100%;
 				margin-right:0px;
 				margin-top:auto;
-				margin-left:150px;
+				margin-left:5%;
 				margin-bottom:auto;
 			}}	
 			
-		@media screen and (min-width:601px) { .main.style4 {
+		@media screen and (min-width:881px) { .main.style4 {
 			text-align: left;
 			padding: 6em 40em 6em 0;
 		}}
