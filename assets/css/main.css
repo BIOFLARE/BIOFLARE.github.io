@@ -553,7 +553,7 @@
 	
 
 	hnametitle {
-		font-size: 1.75em;
+		font-size: 150%;
 		line-height: 1.25em;
 		letter-spacing: -0.05em;
 		text-shadow: 2px 2px 0px #000000 ; /* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
@@ -1946,9 +1946,14 @@
 		padding-left: 2%;
 		padding-right: 2%;
 		margin-left: 0px;
+		}
+		
+		.content4 {
+		text-align: center;
 		
 		}
 		}
+	
 		
 /* Main */
 
