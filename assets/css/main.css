@@ -1941,6 +1941,13 @@
 		text-align: center;
 		padding: 1em 1em 1em 1em; 
 		}
+		
+		.btn123 {
+		padding-left: 2%;
+		padding-right: 2%;
+		margin-left: 0px;
+		
+		}
 		}
 		
 /* Main */
@@ -2277,7 +2284,8 @@
 				}
 
 			.main.style2 {
-				padding: 6em 15px 6em 15px;
+				/*padding: 6em 15px 6em 15px;*/
+				padding: 0px;
 			}
 
 				.main.style2:before, .main.style2:after {
